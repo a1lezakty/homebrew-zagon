@@ -1,7 +1,7 @@
 # Written by release.yml of github.com/a1lezakty/zagon from packaging/homebrew/ in that repo: edit it there.
 cask "zagon" do
-  version "0.1.5"
-  sha256 "74293610dde557aab728d0b6fa04f45d283716a53cebb667b5ce8390467f3734"
+  version "0.1.6"
+  sha256 "c5e80472c88490e3f1cafb3a1cc322e9ad77957999a393d6a912512559a3cc76"
 
   url "https://github.com/a1lezakty/zagon/releases/download/v#{version}/Zagon.dmg"
   name "Zagon"

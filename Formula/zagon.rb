@@ -3,7 +3,7 @@ class Zagon < Formula
   desc "Jira worklogs, limits and time from Claude Code and Codex CLI sessions"
   homepage "https://github.com/a1lezakty/zagon"
   # Stated, not scanned: Homebrew reads "86.64" out of the zagon-linux-x86_64 URL.
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   # One universal binary for both Mac CPUs (`url` is not allowed in on_macos itself).
@@ -11,21 +11,21 @@ class Zagon < Formula
     depends_on macos: :ventura
     on_arm do
       url "https://github.com/a1lezakty/zagon/releases/download/v#{version}/zagon-macos-universal"
-      sha256 "125409a3cf1e080995000774b01e533fe5d69e5404653679aca60934ac6ddf51"
+      sha256 "9205dc096592cca0b762fe512749b6947761cf8cfb38a02146268f2ec9673f12"
     end
     on_intel do
       url "https://github.com/a1lezakty/zagon/releases/download/v#{version}/zagon-macos-universal"
-      sha256 "125409a3cf1e080995000774b01e533fe5d69e5404653679aca60934ac6ddf51"
+      sha256 "9205dc096592cca0b762fe512749b6947761cf8cfb38a02146268f2ec9673f12"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/a1lezakty/zagon/releases/download/v#{version}/zagon-linux-x86_64"
-      sha256 "5e10968760c8bc12df5207b2fd30589f382973c31d5708ccee7331872e207612"
+      sha256 "52e44196b6d1199fd59b880b36cc6761ee7ff965a21ee2fdbce6874d01623a30"
     end
     on_arm do
       url "https://github.com/a1lezakty/zagon/releases/download/v#{version}/zagon-linux-aarch64"
-      sha256 "435333b8ea016b72bdbbc16deb2e91455965898aa4557a1bec9e327113c307db"
+      sha256 "5bf7c98c02db9b723c4cc106e913fa76008793d8e1b97e64a96f072890932ef5"
     end
   end
 
